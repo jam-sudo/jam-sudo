@@ -1,16 +1,26 @@
-## Hi there 👋
+## Jae Min Yoon
 
-<!--
-**jam-sudo/jam-sudo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+MS Bioinformatics student at Northeastern University (BS Pharmaceutical Sciences, MCPHS).
+I work on single-cell perturbation data end to end: raw reads, analysis, modeling, and evaluation.
 
-Here are some ideas to get you started:
+### Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**[NGSpipeline](https://github.com/jam-sudo/NGSpipeline)** · Nextflow DSL2, nf-core template
+
+Perturb-seq raw-read pipeline: FASTQ to count matrices, per-cell guide assignment, and an analysis-ready h5ad.
+- Validated on all 12 GEM groups of Replogle 2022 K562: 95.3 to 96.3% agreement with the authors' guide identities
+- Byte-identical output across local Docker, SLURM Singularity, and a 12-sample SLURM run
+- nf-test coverage, CI, versioned releases with a Zenodo DOI
+
+**[Sisyphus](https://github.com/jam-sudo/Sisyphus)** · Python
+
+Topology-compiled PBPK model: the body as a 34-compartment typed directed multigraph with YAML-configured ODE assembly.
+- Preprint: [ChemRxiv, doi:10.26434/chemrxiv.15004452](https://doi.org/10.26434/chemrxiv.15004452)
+
+**Perturbation response modeling** · in progress
+
+Cross-cell-line prediction of CRISPRi perturbation effects (K562 training, RPE1 held out), with baseline-first evaluation and strict leakage controls. Currently competing in the Arc Institute Virtual Cell Challenge 2026; a write-up of the approach and results will follow.
+
+### Contact
+
+[LinkedIn](https://www.linkedin.com/in/jae-min-yoon-b14491408)
