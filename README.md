@@ -12,14 +12,18 @@ Perturb-seq raw-read pipeline: FASTQ to count matrices, per-cell guide assignmen
 - Byte-identical output across local Docker, SLURM Singularity, and a 12-sample SLURM run
 - nf-test coverage, CI, versioned releases with a Zenodo DOI
 
+**[ALIVE](https://github.com/jam-sudo/alive)** · Python
+
+Preregistered, leakage-controlled evaluation for perturbation-response prediction on Replogle K562 Perturb-seq: an error-aware trust gate with a split-conformal error bound, scored once on a sealed cohort. Result: the error bound was valid; the gate did not beat its comparators. Ongoing work covers combinatorial perturbations (Norman K562 CRISPRa).
+
 **[Sisyphus](https://github.com/jam-sudo/Sisyphus)** · Python
 
 Topology-compiled PBPK model: the body as a 34-compartment typed directed multigraph with YAML-configured ODE assembly.
 - Preprint: [ChemRxiv, doi:10.26434/chemrxiv.15004452](https://doi.org/10.26434/chemrxiv.15004452)
 
-**Perturbation response modeling** · in progress
+**Virtual Cell Challenge 2026** · in progress
 
-Cross-cell-line prediction of CRISPRi perturbation effects (K562 training, RPE1 held out), with baseline-first evaluation and strict leakage controls. Currently competing in the Arc Institute Virtual Cell Challenge 2026; a write-up of the approach and results will follow.
+Competing in the Arc Institute challenge on zero-shot perturbation prediction; a write-up of the approach and results will follow.
 
 ### Contact
 
